@@ -190,6 +190,20 @@ a:hover {
     transition: all 0.3s;
 }
 
+.button-1 {
+  background-color: white;
+  color: rgb(12,31,61);
+  border: 1px solid white;
+  display: inline-block;
+  border-radius: 30px;
+  padding: 1rem 1.2rem;
+  margin: 2rem;
+  font-size: 0.8rem;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  
+}
+
 /*----------------------------------- Footer --------------------------------------*/
 
 footer {
