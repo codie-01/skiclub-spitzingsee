@@ -88,13 +88,9 @@ h6 {
   font-size: 0.9rem;
 }
 
-.bullet-points::before {
-  content: "•"; /* Custom bullet point, you can change it to any character or image */
-  margin-right: 0.5em; /* Adjust the spacing between the bullet and the list item */
-}
-
 .bullet-points {
-  padding: 1%;
+  list-style-type: disc;
+  line-height: 1.8rem;
 }
 
 .logo-text {
@@ -345,7 +341,7 @@ Columns can be hidden at breakpoints:
   /*--------------------------------------------------------------------------------------------------------*/
 
 
-  ul {
+  header ul {
       font-size: 1rem;
       line-height: 1.3rem;
   }
@@ -357,7 +353,7 @@ Columns can be hidden at breakpoints:
 
   /*--------------------- Hamburger-Menu CSS  ---------------------------*/
 
-  li {
+  header li {
     list-style: none;
   }
   
