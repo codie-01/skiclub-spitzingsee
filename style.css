@@ -88,6 +88,15 @@ h6 {
   font-size: 0.9rem;
 }
 
+ul li::before {
+  content: "•"; /* Custom bullet point, you can change it to any character or image */
+  margin-right: 0.5em; /* Adjust the spacing between the bullet and the list item */
+}
+
+ul, li {
+  padding: 1%;
+}
+
 .logo-text {
   font-size: 1.5rem;
 }
