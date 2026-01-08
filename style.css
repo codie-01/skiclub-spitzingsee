@@ -121,7 +121,7 @@ max-width: 200px;
 }
 
 
-  .bg-green { background-color: #CB6CE6; }
+  .bg-green { background-color: rgb(149,169,132); }
   .bg-blue { background-color: rgb(53,156,183);}
   .bg-yellow { background-color: rgb(240,178,68); }
   .bg-white   { background-color: white; }
