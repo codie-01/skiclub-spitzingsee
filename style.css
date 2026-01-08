@@ -16,12 +16,6 @@
     margin: 0;
 }
 
-body {
-  background-color: white;
-  color: black;
-}
-
-
 /*------------------------------------ Reusable Styles / Utility Classes ---------------------------------------*/
 
 .left           {   text-align:     left;   }
@@ -50,14 +44,13 @@ body {
                     padding-right: 14%;     }
 
 
-
-
-                
+          
 
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    color: #7200AF;
+    color: black;
+    background-color: white;
 }
 
 p  {    
@@ -128,7 +121,7 @@ max-width: 200px;
 }
 
 
-  .bg-green { background-color: rgb(149,169,132); }
+  .bg-green { background-color: #CB6CE6; }
   .bg-blue { background-color: rgb(53,156,183);}
   .bg-yellow { background-color: rgb(240,178,68); }
   .bg-white   { background-color: white; }
